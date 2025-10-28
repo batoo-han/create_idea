@@ -7,7 +7,7 @@
 set -e  # Остановка при ошибке
 
 COMPOSE_FILE="docker-compose.yml"
-SERVICE_NAME="telegram-bot"
+SERVICE_NAME="telegram-bot-create-idea"
 
 # Цвета для вывода
 GREEN='\033[0;32m'

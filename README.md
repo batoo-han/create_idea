@@ -44,8 +44,8 @@
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/yourusername/telegram-content-bot.git
-cd telegram-content-bot
+git clone https://github.com/batoo-han/create_idea.git
+cd create_idea
 
 # 2. Создайте .env файл из примера
 cp .env.example .env
@@ -72,8 +72,8 @@ docker-compose down
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/yourusername/telegram-content-bot.git
-cd telegram-content-bot
+git clone https://github.com/batoo-han/create_idea.git
+cd create_idea
 
 # 2. Создайте виртуальное окружение
 python -m venv .venv
@@ -237,8 +237,8 @@ TYPING_TIMEOUT=2
 
 ```bash
 # 1. На сервере клонируйте репозиторий
-git clone https://github.com/yourusername/telegram-content-bot.git
-cd telegram-content-bot
+git clone https://github.com/batoo-han/create_idea.git
+cd create_idea
 
 # 2. Настройте .env
 nano .env
@@ -294,7 +294,7 @@ docker-compose up -d --build
 ## 📁 Структура проекта
 
 ```
-telegram-content-bot/
+create_idea/
 ├── src/                      # Исходный код
 │   ├── api/                  # Клиенты для внешних API
 │   ├── bot/                  # Логика Telegram бота
@@ -328,7 +328,7 @@ telegram-content-bot/
 
 ## 📞 Поддержка
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/telegram-content-bot/issues)
+- **Issues**: [GitHub Issues](https://github.com/batoohan/create_idea/issues)
 - **Документация**: [docs/](docs/)
 - **Email**: your-email@example.com
 

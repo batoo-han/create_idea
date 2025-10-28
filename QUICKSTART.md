@@ -62,8 +62,8 @@ docker-compose ps
 ### Шаг 1: Клонируйте и создайте venv
 
 ```bash
-git clone https://github.com/yourusername/telegram-content-bot.git
-cd telegram-content-bot
+git clone https://github.com/batoo-han/create_idea.git
+cd create_idea
 
 # Создайте виртуальное окружение
 python -m venv .venv
@@ -266,7 +266,7 @@ TEMPERATURE_POST=0.3
 ## 🆘 Нужна помощь?
 
 - 📖 [Полная документация](README.md)
-- 💬 [GitHub Issues](https://github.com/yourusername/telegram-content-bot/issues)
+- 💬 [GitHub Issues](https://github.com/batoohan/create_idea/issues)
 - 📧 Email: your-email@example.com
 
 ---

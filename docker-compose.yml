@@ -3,7 +3,7 @@ version: '3.8'
 services:
   telegram-bot:
     build: .
-    container_name: telegram_content_bot
+    container_name: telegram-bot-create-idea
     restart: unless-stopped
     
     # Монтируем .env файл (создайте его на основе .env.example)
