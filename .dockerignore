@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files (будут монтироваться через volumes)
+.env
+
+# Logs (будут монтироваться через volumes)
+logs/
+*.log
+
+# Temporary files
+temp/
+*.tmp
+
+# Documentation
+docs/
+*.md
+README.md
+QUICKSTART.md
+
+# Media files
+media/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+

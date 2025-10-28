@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: telegram_content_bot
+    restart: unless-stopped
+    
+    # Монтируем .env файл (создайте его на основе .env.example)
+    volumes:
+      - ./.env:/app/.env:ro
+      - ./logs:/app/logs
+      - ./temp:/app/temp
+    
+    # Переменные окружения (можно переопределить в .env файле)
+    environment:
+      - PYTHONUNBUFFERED=1
+    
+    # Логирование
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    
+    # Автоматический перезапуск при падении
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+
