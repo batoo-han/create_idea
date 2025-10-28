@@ -61,3 +61,4 @@ dmypy.json
 # docker-compose.override.yml
 
 PROJECT_READY.md
+CHANGELOG.md
